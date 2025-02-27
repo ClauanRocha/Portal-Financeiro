@@ -9,8 +9,7 @@ Miss Finance é um portal para controle de chamados do setor financeiro, integra
 - **Busca de Informações:** Arquivo dedicado para busca e consulta de dados relevantes.
 - **Interface Amigável:** Espaço reservado para capturas de tela, demonstrando a interface do sistema.
 
-![image](https://github.com/user-attachments/assets/9da3dde1-f0ba-4b6b-a0f5-ff0058d8da38)
-  
+![alt text](image.png)
 
 ## Tecnologias Utilizadas
 
@@ -28,3 +27,75 @@ Miss Finance é um portal para controle de chamados do setor financeiro, integra
    ```bash
    git clone https://github.com/seuusuario/miss-finance.git
    cd miss-finance
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+   ou, se preferir:
+   ```bash
+   yarn install
+   ```
+
+## Configuração
+
+- Renomeie o arquivo `.env.example` para `.env` e ajuste as variáveis de ambiente conforme necessário.
+
+## Uso
+
+- **Iniciar o Servidor:**
+  ```bash
+  npm start
+  ```
+  ou
+  ```bash
+  yarn start
+  ```
+
+- **Acessar o Portal:**
+  Abra seu navegador e acesse `http://localhost:3000` (ou a porta configurada).
+
+## Arquivo para Buscar Informações
+
+O projeto inclui um arquivo específico para a busca de informações na plataforma Ostiket (ex.: `search.js`). Esse arquivo contém as funções necessárias para consultar e retornar dados que alimentam os módulos de chamados do sistema. Verifique os comentários no código para entender a lógica de implementação e personalização.
+
+## Capturas de Tela
+
+> **Espaço reservado para print:**  
+> ![Print da Tela do Miss Finance](caminho/para/sua/imagem.png)
+
+Adicione capturas de tela para demonstrar a interface e facilitar a visualização do funcionamento do sistema.
+
+## Contribuição
+
+Contribuições são muito bem-vindas! Siga os passos abaixo para contribuir:
+
+1. **Fork** do repositório.
+
+2. Crie uma branch para sua feature ou correção:
+   ```bash
+   git checkout -b feature/nome-da-feature
+   ```
+3. Faça commit das suas alterações:
+   ```bash
+   git commit -m "Descrição da alteração"
+   ```
+4. Envie para a branch:
+   ```bash
+   git push origin feature/nome-da-feature
+   ```
+5. Abra um Pull Request para revisão.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## Contato
+
+- **Desenvolvedor:** Seu Nome
+- **Email:** seu.email@exemplo.com
+- **Projeto:** [Miss Finance](https://github.com/seuusuario/miss-finance)
+```
+
+Este README oferece um resumo claro do portal Miss Finance, instruções de instalação, uso e diretrizes para contribuição, além de um espaço dedicado para capturas de tela. Ajuste as seções conforme as especificações e detalhes reais do seu projeto.
